@@ -1,0 +1,11 @@
+num_rows: 4000
+output: pandas
+timeseries:
+      start_time: 2018-03-01T00:00:00 
+      end_time: 2018-03-03T23:59:59
+      increments: seconds
+
+schema: 
+    user_agent: faker.user_agent
+    url: faker.slug
+

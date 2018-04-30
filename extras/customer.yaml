@@ -1,0 +1,12 @@
+num_rows: 400
+output: pandas
+timeseries:
+      start_time: 2015-01-01T00:00:00 
+      end_time: 2018-12-31T23:59:59
+      
+schema: 
+    city: faker.city
+    email: faker.email
+    name: faker.name
+    phone: faker.phone_number
+

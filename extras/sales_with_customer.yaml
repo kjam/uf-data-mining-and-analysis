@@ -1,0 +1,13 @@
+num_rows: 400
+output: pandas
+timeseries:
+      start_time: 2015-01-01T00:00:00 
+      end_time: 2018-12-31T23:59:59
+      
+schema: 
+    customer_id: range(1,300)
+    branch_id: [1, 4, 7, 9]
+    sale_number: range(5,3000)
+    sale_amount: arange(-500.0,1599.99)
+    coupon_code: ['PROMO15', '', '', 'NEW20', '', '', 'FREESHIPPING', '', '']
+    associate: faker.name

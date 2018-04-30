@@ -1,0 +1,13 @@
+eli5
+fuzzywuzzy
+graphviz
+jupyter
+matplotlib
+mpld3
+nltk
+pandas
+requests
+scipy
+sklearn
+sqlalchemy
+yellowbrick
